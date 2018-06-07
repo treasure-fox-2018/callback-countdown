@@ -25,4 +25,6 @@ const time = seconds => {
   return [min,sec];
 };
 
-module.exports = [timer,time];
+module.exports = {
+  timer
+};
