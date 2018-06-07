@@ -21,7 +21,7 @@ const timer = seconds => {
   function convert(sec){
     let minute= Math.floor(sec / 60);
     let second = sec % 60;
-    if (minute > 0) {
+    if (minute > 9) {
       minute ="0"+minute;
     }
     if (second <= 9) {
