@@ -15,7 +15,6 @@ const displayCountdown = seconds => {
   }
   else SS = second; 
   console.log(chalk.green.bold(figlet.textSync(`${MM} : ${SS}`)))
-
 };
 
 module.exports = { displayCountdown };
